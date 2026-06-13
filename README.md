@@ -1,89 +1,90 @@
-PWC-\_Call\_Center\_Excel\_Dashboard
-
-## 📊 Project Overview
-===
+# \# 📞 PWC Call Center Analytics Dashboard
 
 # 
 
-# This dashboard transforms raw call center data into actionable insights 
+# An interactive \*\*Excel + Power BI\*\* dashboard analyzing \~5,000 inbound call records across 4 analytical views — built to support data-driven decisions in workforce management, service quality, and customer satisfaction.
 
 # 
 
-# \*\*Dataset:\*\* (data) \[https://www.kaggle.com/datasets/gayatriwagadre/pwc-call-centre-analysis?resource=download]
+# \- \*\*Dataset:\*\* \[PWC Call Centre Data — Kaggle](https://www.kaggle.com/datasets/gayatriwagadre/pwc-call-centre-analysis?resource=download)
 
-# \*\*Tool:\*\* Microsoft Excel (Pivot Tables, Slicers, Charts, VBA)  
+# \- \*\*Tools:\*\* Microsoft Excel (Pivot Tables, Slicers, Charts, VBA) · Power BI (DAX, Conditional Formatting)
 
-# \*\*BI Layer:\*\* Power BI (DAX Measures, Rankings, Conditional Formatting)
+# 
 
+# \---
 
+# 
 
-\## 🗂️ Dataset Fields
+# \## 🗂️ Dataset Fields
 
+# 
 
+# | Field | Description |
 
-| Field | Description |
+# |-------|-------------|
 
-|-------|-------------|
+# | Call ID | Unique identifier per call |
 
-| Call ID | Unique identifier per call |
+# | Agent | Agent name handling the call |
 
-| Agent | Agent name handling the call |
+# | Date | Call date |
 
-| Date | Call date |
+# | Time | Call time (hour-level) |
 
-| Time | Call time (hour-level) |
+# | Topic | Call category / reason |
 
-| Topic | Call category / reason |
+# | Answered (Y/N) | Whether the call was answered |
 
-| Answered (Y/N) | Whether the call was answered |
+# | Resolved (Y/N) | Whether the issue was resolved |
 
-| Resolved (Y/N) | Whether the issue was resolved |
+# | Speed of Answer (sec) | Wait time before agent picks up |
 
-| Speed of Answer (sec) | Wait time before agent picks up |
+# | Avg Talk Duration | Handle time per call |
 
-| Avg Talk Duration | Handle time per call |
+# | Satisfaction Rating | Customer rating (1–5) |
 
-| Satisfaction Rating | Customer rating (1–5) |
+# 
 
+# \---
 
+# 
 
-\---
+# \## 📐 KPI Definitions
 
-## 📐 KPI Definitions
+# 
 
+# | Metric Name | Definition | Calculation |
 
+# |-------------|------------|-------------|
 
-| Metric Name | Definition | Calculation |
+# | Offered Contacts | Total number of inbound calls presented to the contact center. | Count of Offered Calls |
 
-|-------------|------------|-------------|
+# | Answered Contacts (PCA) | Total number answered by an agent. | Count of Answered Calls |
 
-| Offered Contacts | Total number of inbound calls presented to the contact center. | Count of Offered Calls |
+# | Answer Rate (PCA %) | Percentage of offered calls answered by agents. | Answered Calls ÷ Offered Calls |
 
-| Answered Contacts (PCA) | Total number answered by an agent. | Count of Answered Calls |
+# | Abandonment Rate % | Percentage of callers who disconnected before reaching an agent. | Abandoned Calls ÷ Offered Calls |
 
-| Answer Rate (PCA %) | Percentage of offered calls answered by agents. | Answered Calls ÷ Offered Calls |
+# | Average Handle Time (AHT) | Average time spent handling a customer interaction. | Total Talk Time ÷ Answered Calls |
 
-| Abandonment Rate % | Percentage of callers who disconnected before reaching an agent. | Abandoned Calls ÷ Offered Calls |
+# | Average Waiting Time (ASA) | Average time clients wait before an agent answers. | Average Speed of Answer |
 
-| Average Handle Time (AHT) | Average time spent handling a customer interaction. | Total Talk Time ÷ Answered Calls |
+# | Answered Within Threshold | Number of calls answered within 30 seconds. | Count of Answered Calls with Wait Time ≤ 30 sec |
 
-| Average Waiting Time | Average time clients wait before an agent answers. | Average Speed of Answer |
+# | Service Level (SLA %) | Percentage of calls answered within the 30-second target. | Calls Within Threshold ÷ Offered Calls |
 
-| Answered Within Threshold | Number of calls answered within 30 seconds. | Count of Answered Calls with Average Wait Time ≤ 30 sec |
+# | Resolution Rate % | Percentage of answered contacts successfully resolved. | Resolved Calls ÷ Answered Calls |
 
-| Service Level (SLA %) | Percentage of calls answered within the target threshold of 30 seconds. | Calls Answered Within Threshold ÷ Offered Calls |
+# | CSAT Top 2 Box % | Percentage of surveys rated 4 or 5. | (Rating 4 + Rating 5) ÷ Total Surveys |
 
-| Resolution Rate % | Percentage of answered contacts that were successfully resolved. | Resolved Calls ÷ Answered Calls |
+# | DSAT Bottom Box % | Percentage of surveys rated 1. | Rating 1 ÷ Total Surveys |
 
-| Customer Satisfaction (CSAT Top 2 Box %) | Percentage of customer surveys rated in the top two satisfaction categories. | (Rating 4 + Rating 5) ÷ Total Surveys |
+# | Average Satisfaction Score | Average customer satisfaction score. | Average of All Ratings |
 
-| Customer Dissatisfaction (DSAT Bottom Box %) | Percentage of customer surveys rated in the lowest satisfaction category. | Rating 1 ÷ Total Surveys |
+# 
 
-| Average Satisfaction Score | Average score provided by customers across all surveys. | Average Satisfaction Scores |
-
-### View 1: OverView
-
-(Overview)\[]
+# \---
 
 
 
