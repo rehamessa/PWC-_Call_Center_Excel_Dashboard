@@ -50,10 +50,10 @@ An interactive **Excel + Power BI** dashboard analyzing ~5,000 inbound call reco
 
 ---
 
-![Time Analysis](Images/Time Analysis.png)
+![Time Analysis](Images/Time_Analysis.png)
 
 ----
-![Agent Performance](Images/Agent Rerformance.png)
+![Agent Performance](Images/Agent_Rerformance.png)
 
 
 
