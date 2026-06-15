@@ -41,4 +41,7 @@ An interactive **Excel + Power BI** dashboard analyzing ~5,000 inbound call reco
 | DSAT Bottom Box % | Percentage of surveys rated 1. | Rating 1 ÷ Total Surveys |
 | Average Satisfaction Score | Average customer satisfaction score. | Average of All Ratings |
 
+
+
+
 ---
