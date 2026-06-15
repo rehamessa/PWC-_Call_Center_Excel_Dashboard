@@ -43,7 +43,7 @@ An interactive **Excel + Power BI** dashboard analyzing ~5,000 inbound call reco
 
 ---
 
-![Customer statisfaction]([Images/View3_Customer_Experience.png](Images/CSAT.png)
+![Customer statisfaction](Images/CSAT.png)
 
 
 
