@@ -45,6 +45,16 @@ An interactive **Excel + Power BI** dashboard analyzing ~5,000 inbound call reco
 
 ![Customer statisfaction](Images/CSAT.png)
 
+---
+![Overview](Images/Overview.png)
+
+---
+
+![Time Analysis](Images/Time Analysis.png)
+
+----
+![Agent Performance](Images/Agent Rerformance.png)
+
 
 
 
